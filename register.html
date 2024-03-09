@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input Validation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.2/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./registerstyle.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Sign up</h1>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input
+          type="fullname"
+          id="fullname"
+          spellcheck="false"
+          required
+          placeholder="Full Name"
+          autocomplete="off"
+        />
+        <label for="username">username</label>
+        <input
+          type="username"
+          id="username"
+          spellcheck="false"
+          required
+          placeholder="username"
+          autocomplete="off"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          spellcheck="false"
+          required
+          placeholder="Email"
+          autocomplete="off"
+        />
+        <label for="email">Password</label>
+        <input
+          type="password"
+          required
+          placeholder="Password"
+          autocomplete="off"
+        />
+      </div>
+      <div class="login1">
+        <a href="./page1.html" class="submitbtn">Login</a>
+        <a href="./login.html">registered? login</a>
+      </div>
+    </form>
+  </body>
+</html>
