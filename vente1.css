@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    
+        font-family: 'Open Sans', sans-serif;
+    
 }
 html::-webkit-scrollbar-track{
     background: transparent;

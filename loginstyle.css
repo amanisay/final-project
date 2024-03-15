@@ -3,7 +3,9 @@
     --invalid: hsl(10, 80%, 40%);
     --input: hsl(0, 0%, 0%);
 }
-
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 body {
     min-height: 100vh;
     display: flex;
@@ -11,7 +13,7 @@ body {
     justify-content: center;
     font-weight: 100;
   background-image: url(./logos/fe98a293d654baeab7262042052e4a15.jpg);
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('logos/9fc1585704e201d7c825eb902af604ec.jpg');
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('logos/9fc1585704e201d7c825eb902af604ec.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
