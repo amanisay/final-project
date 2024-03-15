@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Furniture Webiste</title>
+    
+        <!-- Style Css Link -->
+        <link rel="stylesheet" href="./vente .css" />
+        <!-- Style Css Link -->
+    
+        <!-- Font Awesome Cdn -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <!-- Font Awesome Cdn -->
+      </head>
+      <body>
+         <!-- Header Start -->
+    <div class="header">
+        <nav>
+          <input type="checkbox" id="show-search" />
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src="./logos/Screenshot_6-3-2024_191517_app.logo.com.jpeg" alt="" /></a>
+            </div>
+  
+            <ul class="links" id="links">
+              <li><a href="./page1.html" id="first">Home</a></li>
+              <li><a href="./page1.html">Products</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#review">Reviews</a></li>
+              <li><a href="./login.html">Login</a></li>
+            </ul>
+          </div>
+          <label for="show-search" class="search-icon"
+            ><i class="fas fa-search"></i
+          ></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Search" required />
+            <button type="submit" class="go-icon">
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </button>
+          </form>
+        </nav>
+ </div>
+      <!-- Header End -->
+      
+        <main>
+            <H1 style="margin-left: 200px ; color: rgb(92, 68, 40);">.Votre panier:</H1>
+            <section class="produit">
+              <img src="./salonsimg/10a6ac5cf62085b4892b3d45b5a6ca84.jpg" alt="Produit">
+              <h3>Salon 1</h3>
+             
+              <span class="prix">1000DZD</span>
+              <div class="quantite">
+                <button class="btn-moins">-</button>
+                <input type="number" value="1" min="1">
+                <button class="btn-plus">+</button>
+              </div>
+             
+            </section>
+            <a href="./salons.html" style=" 
+            border: 0;
+            margin-top: 0.5rem;
+            border-radius: 10px;
+            color: rgb(7, 7, 7);
+            cursor: pointer;
+          margin-left: 500px;
+           
+            padding: 5px 15px;
+            ;">ajouter un autre article a votre panier</a>
+            <section class="total">
+              <h2>Total</h2>
+              <p>Total:</p>
+              <span class="prix-total">1000DZD</span>
+            </section>
+       </main>
+      <script src="script.js"></script>
+      
+        
+    </body>
+</html>    
